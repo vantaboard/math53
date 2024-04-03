@@ -42,7 +42,7 @@ func a() {
 		},
 	}
 
-	f, _ := os.Create("calc_10_1_example_1a.png")
+	f, _ := os.Create("images/calc_10_1_example_1a.png")
 	defer f.Close()
 	graph.Render(chart.PNG, f)
 }
@@ -79,7 +79,7 @@ func b() {
 		},
 	}
 
-	f, _ := os.Create("calc_10_1_example_1b.png")
+	f, _ := os.Create("images/calc_10_1_example_1b.png")
 	defer f.Close()
 	graph.Render(chart.PNG, f)
 }
